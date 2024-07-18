@@ -1,1 +1,2 @@
-# Transformer-Latent-Space-clustering
+## The idea Behind this Project is to perform analysis on latent space created by a transformer. Database used for this purpose is DIT scientific papers data that contains information about papers published by professionals working at DIT. Bert algorithm is used to create the latent space, since it is a encoder only transformer. After that, eucledian distance is used to calculate the distance between the papers published by different authors to find the authors who might be working in the same areas but are not coauthors. Then K-means is applied on the latent space to group similar points in latent space together and study the result. Below is the inspiration for the project
+https://jas.bayern/index.php/bjas/article/view/135
